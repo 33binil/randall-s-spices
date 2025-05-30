@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      rotate: {90: '90deg',},
       colors: {
         darkbg: '#0F1F14',
         primary: '#1A3C34',
@@ -16,7 +17,6 @@ export default {
         limehover: '#8EFFB7'
       }
     }
-
   },
   plugins: [],
 }
