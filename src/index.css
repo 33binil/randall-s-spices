@@ -9,3 +9,23 @@ body {
 .rotate-mobile {
     transform: rotate(90deg);
 }
+
+body {
+    font-family: sans-serif;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-scroll {
+    position: absolute;
+    top: 50%;
+    width: 700%;
+    animation: scrollText infinite linear infinite;
+}

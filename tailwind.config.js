@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      rotate: {90: '90deg',},
+      rotate: { 90: '90deg' },
       colors: {
         darkbg: '#0F1F14',
         primary: '#1A3C34',
@@ -15,6 +15,9 @@ export default {
         softwhite: '#F1F1F1',
         muted: '#A8B2A1',
         limehover: '#8EFFB7'
+      },
+      fontFamily: {
+        kalam: ["Kalam", "cursive"], // Added Kalam font
       }
     }
   },
